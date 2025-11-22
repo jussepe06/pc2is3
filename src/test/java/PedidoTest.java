@@ -15,7 +15,6 @@ public class PedidoTest {
         productoBase = new Producto("Laptop", 1500.0, 10, "SKU-001", "Tecnologia", true, true);
     }
 
-    // --- PRUEBAS PARA agregarProducto (5 casos) ---
 
     // 1. Cantidad no válida: cantidad <= 0 -> false 
     @Test
@@ -116,4 +115,5 @@ public class PedidoTest {
 }
 
     
+
 
