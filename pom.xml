@@ -26,8 +26,7 @@
         </dependency>
     </dependencies>
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>24</maven.compiler.release>
-        <exec.mainClass>com.mycompany.ejercicio1pc2is3.Ejercicio1pc2is3</exec.mainClass>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.release>17</maven.compiler.release> <exec.mainClass>com.mycompany.ejercicio1pc2is3.Ejercicio1pc2is3</exec.mainClass>
     </properties>
 </project>
