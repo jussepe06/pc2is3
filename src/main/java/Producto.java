@@ -23,14 +23,14 @@ public class Producto {
         this.descuentoAplicable = descuentoAplicable;
     }
 
-    // Constructor simplificado (útil para el método agregarProducto que crea copias)
+    // Constructor simplificado 
     public Producto(String nombre, double precio, int cantidad) {
         this.nombre = nombre;
         setPrecio(precio);
         setCantidad(cantidad);
     }
 
-    // Getters y Setters con validaciones [cite: 148]
+    // Getters y Setters con validaciones 
     public double getPrecio() { return precio; }
     public void setPrecio(double precio) {
         if (precio < 0) throw new IllegalArgumentException("El precio no puede ser negativo");
@@ -58,7 +58,7 @@ public class Producto {
     public boolean isDescuentoAplicable() { return descuentoAplicable; }
     public void setDescuentoAplicable(boolean descuentoAplicable) { this.descuentoAplicable = descuentoAplicable; }
 
-    // equals y hashCode basados SOLO en SKU [cite: 149]
+    // equals y hashCode basados SOLO en SKU 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -79,3 +79,4 @@ public class Producto {
 }
 
     
+
