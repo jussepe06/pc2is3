@@ -13,7 +13,7 @@ public class Pedido {
         }
 
         // Validación 2: Producto duplicado por SKU 
-        // Usamos stream().anyMatch verificando el SKU para cumplir el requisito estricto
+        // Usamos stream().anyMatch verificando el SKU para cumplir el requisito 
         boolean productoYaExiste = detallesPedido.stream()
                 .anyMatch(p -> p.getSku() != null && p.getSku().equals(producto.getSku()));
 
@@ -46,4 +46,5 @@ public class Pedido {
 }
 
     
+
 
